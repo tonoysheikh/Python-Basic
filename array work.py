@@ -1,0 +1,18 @@
+name = ["salman","johir","tonoy"]
+
+print(name)
+print(name[0])
+name.append("sheikh")
+print(name)
+name.insert(0,"salman")
+print(name)
+x = name.count("salman")
+print("salman is found",x)
+y=name.index("tonoy")
+print(y)
+name.pop()
+print(name)
+name.remove("salman")
+print(name)
+name.sort()
+print(name)
